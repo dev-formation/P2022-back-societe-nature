@@ -8,7 +8,10 @@ import { CategoriesModule } from './categories/categories.module';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ envFilePath: '.env.dev', isGlobal: true }),
+    ConfigModule.forRoot({
+      envFilePath: `.env.${process.env.STAGE}`,
+      isGlobal: true,
+    }),
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],

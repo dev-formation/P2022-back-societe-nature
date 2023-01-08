@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2023-01-08T16:35:46.879Z",
-    "modified": "2023-01-08T18:29:10.882Z",
+    "modified": "2023-01-08T18:48:41.911Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"Bonsaï d'érable du Japon\",\n  \"unitprice_ati\": 175.8,\n  \"quantity\": 6,\n  \"rating\": 5,\n  \"category\": {\n    \"id\": \"764e7dd5-5cab-4061-ab4c-a8d90bbb19e9\",\n    \"name\": \"Bonsaïs\"\n  }\n}",
+      "raw": "{\n  \"name\": \"Cactus de Noël\",\n  \"unitprice_ati\": 9.9,\n  \"quantity\": 4,\n  \"rating\": 4,\n  \"category\": {\n    \"id\": \"713a1c6c-a7e9-43db-b74d-750786e85d6e\",\n    \"name\": \"Cactus\"\n  }\n}",
       "form": []
     },
     "tests": []
@@ -69,7 +69,7 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2023-01-08T17:17:52.230Z",
-    "modified": "2023-01-08T18:24:30.108Z",
+    "modified": "2023-01-08T18:48:00.078Z",
     "headers": [],
     "params": [],
     "body": {
