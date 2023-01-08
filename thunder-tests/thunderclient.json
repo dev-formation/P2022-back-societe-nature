@@ -12,5 +12,71 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "3f0ac956-420a-476e-81e1-d58d2dcd286b",
+    "colId": "4d79cda7-b50b-44b3-ba01-e17d25b55394",
+    "containerId": "fac24317-2182-4ae9-9049-a084f7231ce2",
+    "name": "Get Plants",
+    "url": "{{baseUrl}}/api/plants",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-01-08T16:28:29.348Z",
+    "modified": "2023-01-08T16:29:27.865Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "73298e75-0c19-45de-98ab-94652e9d8b1a",
+    "colId": "4d79cda7-b50b-44b3-ba01-e17d25b55394",
+    "containerId": "fac24317-2182-4ae9-9049-a084f7231ce2",
+    "name": "Create Plant",
+    "url": "{{baseUrl}}/api/plants",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-01-08T16:35:46.879Z",
+    "modified": "2023-01-08T18:29:10.882Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Bonsaï d'érable du Japon\",\n  \"unitprice_ati\": 175.8,\n  \"quantity\": 6,\n  \"rating\": 5,\n  \"category\": {\n    \"id\": \"764e7dd5-5cab-4061-ab4c-a8d90bbb19e9\",\n    \"name\": \"Bonsaïs\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b4925e1a-9e98-411a-bb1f-6d467d1f6099",
+    "colId": "4d79cda7-b50b-44b3-ba01-e17d25b55394",
+    "containerId": "c7f6a70b-2c9e-49e6-adfc-74c9af123a6b",
+    "name": "Get Categories",
+    "url": "{{baseUrl}}/api/categories",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-01-08T17:17:52.229Z",
+    "modified": "2023-01-08T17:18:05.636Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3c7237b2-d6ff-4353-856e-2aa4cc2fb56d",
+    "colId": "4d79cda7-b50b-44b3-ba01-e17d25b55394",
+    "containerId": "c7f6a70b-2c9e-49e6-adfc-74c9af123a6b",
+    "name": "Create Category",
+    "url": "{{baseUrl}}/api/categories",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-01-08T17:17:52.230Z",
+    "modified": "2023-01-08T18:24:30.108Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Orchidées\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
